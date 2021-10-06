@@ -5,6 +5,7 @@
     state: disabled
   loop:
     - rhel-8-for-x86_64-highavailability-e4s-rpms
+    - rhel-8-for-x86_64-sap-netweaver-eus-rpms
   loop_control:
     loop_var: repo_name
 
