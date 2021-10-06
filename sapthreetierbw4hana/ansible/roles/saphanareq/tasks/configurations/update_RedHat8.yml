@@ -11,6 +11,7 @@
     - rhel-8-for-x86_64-baseos-e4s-rpms
     - rhel-8-for-x86_64-appstream-eus-rpms
     - rhel-8-for-x86_64-baseos-eus-rpms
+    - rhel-8-for-x86_64-appstream-e4s-rpms
   loop_control:
     loop_var: repo_name
 
