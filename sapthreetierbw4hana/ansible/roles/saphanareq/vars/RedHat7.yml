@@ -33,7 +33,7 @@ saphana_required_package_groups:
   - "@base"
 
 saphana_required_configurations:
-  - "update_os"
+  - "update_RedHat7"
   - "reqpkggroups"
   - "reqpkg"
   - "hostname"
