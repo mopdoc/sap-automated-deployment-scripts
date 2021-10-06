@@ -9,12 +9,12 @@ SSH_KEYS		= [ "r010-57bfc315-f9e5-46bf-bf61-d87a24a9ce7a" , "r010-3fcd9fe7-d4a7-
 # SAP Database VSI variables:
 DB-HOSTNAME		= "sapbw4db"
 DB-PROFILE		= "mx2-16x128"
-DB-IMAGE		= "ibm-redhat-8-2-amd64-sap-hana-1"
+DB-IMAGE		= "ibm-redhat-7-6-amd64-sap-hana-1"
 
 # SAP APPs VSI variables:
 APP-HOSTNAME	= "sapbw4app"
 APP-PROFILE		= "bx2-4x16"
-APP-IMAGE		= "ibm-redhat-8-2-amd64-sap-applications-1"
+APP-IMAGE		= "ibm-redhat-7-6-amd64-sap-applications-1"
 
 #HANA DB configuration
 hana_sid = "HDB"
