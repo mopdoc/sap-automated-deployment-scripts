@@ -1,4 +1,4 @@
-# Automation script for SAP HANA 2.0 DB installation using Terraform and Ansible integration.
+# Automation script for SAP BASTION and STORAGE Initial setup installation using Terraform and Ansible integration.
 
 
 ## Description
