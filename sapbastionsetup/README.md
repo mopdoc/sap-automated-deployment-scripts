@@ -12,7 +12,7 @@ It contains:
 For the script configuration add your IBM Cloud API Key in `terraform.tfvars`.
 
 ## VSI Configuration
-The VSI is configured with Red Hat Enterprise Linux 7.6 for SAP HANA (amd64), has two SSH keys configured to access as root user on SSH and 3 storage volumes as described below in
+The VSI is configured with Red Hat Enterprise Linux 8.3 (amd64), has two SSH keys configured to access as root user on SSH and 3 storage volumes as described below in
 the file `input.auto.tfvars`
 
 ## Input parameter file
