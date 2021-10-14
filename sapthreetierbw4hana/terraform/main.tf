@@ -7,7 +7,7 @@ module "vpc" {
   SECURITYGROUP = var.SECURITYGROUP
   SUBNET		= var.SUBNET
 }
-/*
+
 module "db-vsi" {
   source		= "./modules/db-vsi"
   depends_on	= [ module.vpc ]
@@ -23,7 +23,7 @@ module "db-vsi" {
   VOL_PROFILE	= "custom"
   VOL_IOPS		= "10000"
 }
-*/
+
 module "app-vsi" {
   source		= "./modules/app-vsi"
   depends_on	= [ module.vpc ]
@@ -38,14 +38,14 @@ module "app-vsi" {
   VOLUME_SIZES	= [ "40" , "128" ]
   VOL_PROFILE	= "10iops-tier"
 }
-/*
+
 module "db-ansible-exec" {
   source		= "./modules/ansible-exec"
   depends_on	= [ module.db-vsi , local_file.db_ansible_saphana-vars ]
   IP			= module.db-vsi.PRIVATE-IP
   PLAYBOOK_PATH = "../ansible/saphana.yml"
 }
-*/
+
 module "app-ansible-exec" {
   source		= "./modules/ansible-exec"
   depends_on	= [ module.db-ansible-exec , module.app-vsi , local_file.app_ansible_saps4app-vars ]
