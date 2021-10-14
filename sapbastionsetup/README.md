@@ -1,4 +1,4 @@
-# Automation script for SAP BASTION and STORAGE initial setup installation using Terraform
+# Automation script for SAP BASTION and STORAGE initial setup installation using Terraform.
 
 
 ## Description
