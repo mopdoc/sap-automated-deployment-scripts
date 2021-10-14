@@ -2,7 +2,7 @@
 
 
 ## Description
-This solution will perform automated deployment of  **SAP BASTION and STORAGE Initial setup** on top of **Red Hat Enterprise Linux 7.6**.
+This solution will perform automated deployment of  **SAP BASTION and STORAGE Initial setup** on top of **Red Hat Enterprise Linux 8.3**.
 
 It contains:  
 - Terraform scripts for deploying a VPC, Subnet, Security Group with rules and a VSI.
