@@ -19,17 +19,16 @@ the file `input.auto.tfvars`
 The solution is configured by editing your variables in the file `input.auto.tfvars`
 Edit your VPC, Subnet, Security group, Hostname, Profile, Image, SSH Keys and starting with minimal recommended disk sizes like so:
 ```shell
-# General VPC variables:
 REGION			= "eu-de"
 ZONE			= "eu-de-2"
 VPC				= "ic4sap"
 SECURITYGROUP	= "ic4sap-securitygroup"
 SUBNET			= "ic4sap-subnet"
-HOSTNAME		= "sapbastion"
-PROFILE			= "mx2-16x128"
-IMAGE			= "ibm-redhat-7-6-amd64-sap-hana-1"
+HOSTNAME		= "bastion"
+PROFILE			= "bx2-2x8"
+IMAGE			= "ibm-redhat-8-3-minimal-amd64-3"
 SSH_KEYS		= [ "r010-57bfc315-f9e5-46bf-bf61-d87a24a9ce7a" , "r010-3fcd9fe7-d4a7-41ce-8bb3-d96e936b2c7e" ]
-VOL1			= "100"
+VOL1			= "100" # the default minimal reccomended value is 100 GB
 ```
 
 Parameter | Description
