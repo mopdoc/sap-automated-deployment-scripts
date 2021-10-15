@@ -9,7 +9,7 @@ connection {
     type = "ssh"
     user = "root"
     host = var.IP
-    private_key = "${file("~/.ssh/id_rsa")}"
+    private_key = "${file("modules/install-prereq/id_rsa")}"
  }
 
 provisioner "remote-exec" {

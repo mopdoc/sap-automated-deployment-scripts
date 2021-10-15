@@ -35,6 +35,6 @@ module "vsi" {
 module "install-prereq" {
   source		= "./modules/install-prereq"
   depends_on	= [ module.vsi ]
-#  IP			= module.vsi.PRIVATE-IP
-   IP			= module.vsi.FLOATING-IP
+  IP			= module.vsi.PRIVATE-IP
+#   IP			= module.vsi.FLOATING-IP
 }
