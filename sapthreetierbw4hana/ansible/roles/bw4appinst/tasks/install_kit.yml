@@ -81,9 +81,9 @@
     group: root
     mode: 0777
 
-- name: Copy "{{ kit_s4hana_export }}" kit to target
+- name: Copy "{{ kit_bw4hana_export }}" kit to target
   copy:
-    src: "{{ kit_s4hana_export }}/"
+    src: "{{ kit_bw4hana_export }}/"
     dest: "{{ bw4app_kit }}"
     owner: root
     group: root
