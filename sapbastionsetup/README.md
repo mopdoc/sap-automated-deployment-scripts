@@ -28,7 +28,7 @@ HOSTNAME		= "bastion"
 PROFILE			= "bx2-2x8"
 IMAGE			= "ibm-redhat-8-3-minimal-amd64-3"
 SSH_KEYS		= [ "r010-57bfc315-f9e5-46bf-bf61-d87a24a9ce7a" , "r010-3fcd9fe7-d4a7-41ce-8bb3-d96e936b2c7e" ]
-VOL1			= "100" # the default minimal recomended value is 100 GB
+VOL1			= "100" # the default minimal recommended value is 100 GB
 ```
 
 Parameter | Description
