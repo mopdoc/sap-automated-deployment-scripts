@@ -1,0 +1,7 @@
+---
+#Sapinst product-id
+sap_product_id: ""
+
+#Target files location
+bw4app_kit: "/usr/sap/trans/kit"
+...
