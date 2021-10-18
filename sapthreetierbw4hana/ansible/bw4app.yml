@@ -5,6 +5,6 @@
     - name: Import playbook variables
       include_vars: "bw4app-vars.yml"
   roles:
-    - bw4appreq
-    #- bw4appinst
+    #- bw4appreq
+    - bw4appinst
 ...
